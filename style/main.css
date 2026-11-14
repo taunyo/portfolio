@@ -1,19 +1,17 @@
-body {
-    background-color: #FDFCFD;
-    font-family: Rubik, Roboto, sans-serif;
+:root {
+    --bg-color: #FFFCFC;
+    --text-color: #D13415;
+    --accent-color: #5C271F;
+    --card-bg: #FEEBE7;
+    --border-color: #FDBDAF;
 }
 
-h1 {
-    color: #211F26;
-}
-
-p {
-    color: #65636D;
-}
-
-a {
-    color: #65636D;
-    text-decoration: none;
+body.dark-mode {
+    --bg-color: #181111;
+    --text-color: #FBD3CB;
+    --accent-color: #FF977D;
+    --card-bg: #391714;
+    --border-color: #6E2920;
 }
 
 button {
