@@ -1,0 +1,33 @@
+body {
+    background-color: #FDFCFD;
+    font-family: Rubik, Roboto, sans-serif;
+}
+
+h1 {
+    color: #211F26;
+}
+
+p {
+    color: #65636D;
+}
+
+a {
+    color: #65636D;
+    text-decoration: none;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+select {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+#section_links a {
+    color: #211F26;
+}
