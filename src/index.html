@@ -10,5 +10,69 @@
         <meta name="keywords" content="Antoine DUFOSSÉ, portfolio, web developer, software engineer">
     </head>
 
-    <body></body>
+    <body>
+        <header>
+            <label for="language"></label>
+            <select id="language">
+                <option selected="selected">En</option>
+                <option>Fr</option>
+            </select>
+
+            <div id="section_links" class="links">
+                <a id="home_link" href="#home">Home</a>
+                <a id="projects_link" href="#projects">Projects</a>
+                <a id="contact_link" href="#contact">Contact</a>
+            </div>
+
+            <label for="theme"></label>
+            <select id="theme">
+                <option selected="selected">Light</option>
+                <option>Dark</option>
+            </select>
+        </header>
+
+        <main>
+            <section id="home" class="section">
+                <div class="title"><h1>Antoine DUFOSSÉ</h1></div>
+                <div class="description">
+                    <p>Computer science student at the University of Lille, pursuing a double degree at the USTH</p>
+                    <p>I am currently seeking for a 3-months internship from mid-March to mid-June</p>
+                </div>
+                <div class="buttons">
+                    <a class="button" href="#projects">My projects</a>
+                    <a href="" download class="button">Download my resume</a>
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <h1>Projects</h1>
+
+                <div class="projects_container">
+                    <div id="previous"><button>Previous</button></div>
+
+                    <div class="project_card">
+                        <div id="project_image" class="image"><img src="index.html" alt="illustration image"/></div>
+                        <div class="text">
+                            <div class="title"><h1>Title</h1></div>
+                            <div class="description"><p>Description</p></div>
+                            <div class="techno"><p>Techno</p></div>
+                            <div class="buttons"><a href="index.html">See more</a></div>
+                        </div>
+                    </div>
+
+                    <div id="next"><button>Next</button></div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <div class="title"><h1>Contact me !</h1></div>
+                <div class="links">
+                    <a href="mailto:email@mail.com">email</a>
+                    <a href="https://www.linkedin.com/in/antoine-dufoss%C3%A9-6518782a1/">LinkedIn</a>
+                    <a href="https://github.com/taunyo">GitHub</a>
+                </div>
+                <div class="localisation"><p>Hanoï (Vietnam) and Lille (France)</p></div>
+            </section>
+        </main>
+    </body>
 </html>
